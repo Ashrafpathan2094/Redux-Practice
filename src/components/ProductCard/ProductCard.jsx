@@ -58,6 +58,7 @@ const ProductCard = ({ product }) => {
                     })
                   )
                 }
+                disabled={currentProduct?.quantity === product?.quantity}
               >
                 +
               </button>
